@@ -1,0 +1,19 @@
+section.intro {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #f2f2f2;
+    border-radius: 30px;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+section.intro img {
+    width: 20%;
+    border-radius: 100%;
+}
+section.intro .content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
