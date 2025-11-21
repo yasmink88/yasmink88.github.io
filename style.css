@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    line-height: 1.4;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 100%;
+}
+
+main {
+    margin-top: -80px;
+}
+/* Header Styles */
+
+header {
+    position: relative;
+    z-index: 9;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+nav img {
+    height: 60px;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  list-style-type: none;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+/* Main Styles */
+main {
+    flex: 1;
+}
+/* Hero Styles */
+
+.hero {
+    background-image: url(./media/cctb-college.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 100px 50px;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero.pages {
+    min-height: 40vh;
+}
+
+.hero .content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 675px;
+    color: #fff;
+}
+
+.hero.pages .content {
+    gap: 0;
+}
+
+.hero .content p {
+    line-height: 1.8;
+    font-size: 20px;
+}
+/* Footer Styles */
+
+footer {
+    background-color: #56255c;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+}
