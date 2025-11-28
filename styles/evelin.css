@@ -1,0 +1,106 @@
+:root {
+  --main-green: #2ecc71;
+  --main-cyan: #1abc9c;
+  --bg-light: #f5fafa;
+  --text-color: #333;
+  --box-bg: #e0f7f5;
+}
+section {
+  text-align: center;
+  padding: 2rem;
+}
+.container {
+  max-width: 900px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  background-color: #f5fafa;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+  font-size: 2.5rem;
+  letter-spacing: 1.5px;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0 auto; 
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  margin-top: 1.5rem;
+  background-color: var(--main-green);
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+body {
+  background: var(--bg-light);
+  color: var(--text-color);
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+
+header {
+  background: var(--main-cyan);
+  color: white;
+  padding: 2rem;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.hobby-gallery {
+  display: flex;
+  flex-wrap: wrap;           /* permite que las tarjetas “bajen” a la siguiente fila si no caben */
+  justify-content: center;   /* centra las tarjetas horizontalmente */
+  gap: 1.5rem;               /* espacio entre tarjetas */
+}
+
+.hobby-box {
+  flex: 1 1 45%;             /* base: 45% del ancho del contenedor, para que quepan 2 por fila aprox. */
+  max-width: 300px;
+  background: var(--box-bg);
+  border: 2px solid var(--main-cyan);
+  border-radius: 8px;
+  padding: 1rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.hobby-box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}
+.hobby-box {
+  background: var(--box-bg);
+  border: 2px solid var(--main-cyan);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 300px;
+  text-align: center;
+}
+
+.hobby-box img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+}

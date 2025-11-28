@@ -1,0 +1,303 @@
+h1{
+    color: #353535;
+    font-size: 36px;
+}
+
+body{
+    margin: 0px; 
+    padding: 0px;
+}
+
+#nav_ximena {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; 
+    background-color: #f8f8f8; 
+}
+
+#logo {
+    height: 40px; /* Adjust height as needed */
+    width: auto;
+}
+
+.nav-list-ximena{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    list-style-type: none;
+    top: 0;
+    left: 0;
+}
+
+.nav-list-ximena li a {
+    text-decoration: none;
+    color: #353535; 
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-list-ximena li a:hover {
+    color: #007bff; 
+}
+
+.banner{
+    height: 100vh;
+    background-image: url(../media/ximena-images/header_banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#banner_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    height: 800px;
+    margin-left: 80px;
+}
+
+main{
+    padding: 0px;
+}
+
+.collage-viviana{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    width: 600px;
+    height: 600px;
+}
+
+.collage-viviana .card1{
+    position: absolute;
+    width: 210px;
+    height: auto;
+    top: 90px;
+    left: 130px;
+    transform: rotate(-8deg);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.collage-viviana .card1:hover{
+    transform: translateY(-20px) scale(1.05) rotate(-8deg);
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10; 
+}
+
+.collage-viviana .card2{
+    position: absolute;
+    width: 250px;
+    height: auto;
+    top: 180px;
+    left: 300px;
+    transform: rotate(10deg);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.collage-viviana .card2:hover{
+    transform: translateY(-20px) scale(1.05) rotate(11deg); 
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+
+.collage-viviana .card3{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    top: 300px;
+    left: 110px;
+    transform: rotate(-10deg);
+    z-index: 3;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.collage-viviana .card3:hover{
+    transform: translateY(-20px) scale(1.05) rotate(-10deg); 
+        box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3);
+        z-index: 2;
+}
+
+.read_more{
+    background-color: #9b84bb;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    padding: 16px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 150px;
+    margin-left: 70px;
+}
+
+.banner-h1{
+text-align: left;
+color: rgb(102, 102, 102);
+max-width: 50%;
+margin-left: 70px;
+margin-top: 250px;
+}
+
+
+.banner-text{
+text-align: left;
+color: rgb(102, 102, 102);
+max-width: 40%;
+margin-left: 70px;
+font-size: 24px;
+}
+
+.viviana-description{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+    padding: 50px;
+    justify-content: space-evenly;
+}
+
+.viviana-img-text{
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: flex-start;
+    justify-content: center;
+    width: 50%;
+}
+
+.viviana-sign{
+align-items: flex-start;
+}
+
+
+.viviana-description-text{
+text-align: left;
+color: rgb(102, 102, 102);
+max-width: 80%;
+margin-left: 0px;
+font-size: 24px;
+}
+
+.thermo-banner{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.carousel-container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(auto-fill, 200px);
+    overflow-x: auto;
+    gap: 15px;
+    padding: 100px;
+    justify-content: center;
+}
+
+.carousel-img{
+     width: 100%; /* Make images fill their grid container */
+    height: 100%; /* Make images fill their grid container */
+    object-fit: cover; /* Ensures images maintain aspect ratio and cover the area without stretching */
+    vertical-align: middle;
+}
+
+
+:root {
+    --main-text-color: #4a2d71; /* Color morado oscuro del texto */
+    --button-bg-color: #a48cc6; /* Color morado claro del botón */
+    --icon-circle-color: #f0f8f7; /* Color de fondo claro de los íconos */
+}
+
+/* Estilos generales de la sección */
+.subscription-section {
+    background-color: white;
+    min-height: 400px; 
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    padding: 50px 20px;
+}
+
+.container {
+    text-align: center; /* Centra el texto y los elementos en línea */
+    max-width: 600px; /* Limita el ancho para que no se extienda demasiado */
+    width: 100%;
+}
+
+/* Estilo del título */
+.subscription-title {
+    color: var(--main-text-color);
+    font-size: 1.8rem;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+
+/* Estilo del formulario (contenedor del campo y el botón) */
+.subscription-form {
+    display: flex;
+    justify-content: center; /* Centra el formulario */
+    border: 1px solid #ccc;
+    border-radius: 30px; 
+    overflow: hidden; /* Importante para que el contenido respete el border-radius */
+    width: fit-content; 
+    margin: 0 auto 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.subscription-form input[type="email"] {
+    flex-grow: 1; /* Permite que el campo de email tome el espacio restante */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    outline: none; 
+    background-color: transparent;
+}
+
+/* Estilo del botón de suscripción */
+.subscribe-button {
+    background-color: var(--button-bg-color);
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 0 30px 30px 0; 
+    transition: background-color 0.3s;
+}
+
+.subscribe-button:hover {
+    background-color: #7d689b; 
+}
+
+/* --- Iconos Sociales --- */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons li {
+    margin: 0 5px;
+}
+
+.social-icons {
+    align-items: center;
+
+}
+
+.social-media-icon{
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: top;
+    width: 50px;
+    height: auto;
+ 
+}
+
+#footer {
+    align-items: center;
+}

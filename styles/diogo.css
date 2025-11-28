@@ -1,0 +1,184 @@
+/* ===== Global ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #111;
+  color: #eee;
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+}
+
+main {
+    text-align: left;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+p.muted {
+  opacity: 0.7;
+}
+
+/* ===== Hero ===== */
+/* .hero {
+  padding: 5rem 0;
+  text-align: center;
+  background: url('https://source.unsplash.com/1600x900/?guitar,stage') center/cover no-repeat;
+  background-attachment: fixed;
+}
+
+.hero-inner {
+  backdrop-filter: brightness(0.3) blur(3px);
+  padding: 2rem;
+  border-radius: 12px;
+} */
+
+.kicker {
+  color: #ff6b00;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.lead {
+  max-width: 600px;
+  margin: 1rem auto;
+  opacity: 0.8;
+}
+
+.cta-row {
+  margin: 2rem 0;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.btn {
+  padding: 0.8rem 1.4rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background: #ff6b00;
+  color: #000;
+}
+
+.btn-outline {
+  border: 1px solid #ff6b00;
+  color: #ff6b00;
+}
+
+/* ===== Cards ===== */
+.cards {
+  margin-top: 3rem;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid #222;
+}
+
+.tag {
+  background: #ff6b00;
+  display: inline-block;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  color: #000;
+  font-size: 0.9rem;
+  margin-bottom: 0.7rem;
+  font-weight: 600;
+}
+
+/* ===== Gallery ===== */
+.gallery {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.thumb {
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.thumb:hover {
+  transform: scale(1.03);
+}
+
+/* ===== Lessons & Layout ===== */
+.two-col {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+}
+
+@media(max-width: 800px) {
+  .two-col {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ===== Contact ===== */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+}
+
+input, textarea {
+  padding: 0.7rem;
+  background: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: #eee;
+}
+
+button {
+  padding: 0.8rem 1.3rem;
+  border: none;
+  border-radius: 6px;
+  background: #ff6b00;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* ===== Footer ===== */
+footer {
+  margin-top: 3rem;
+  padding: 2rem 0;
+  text-align: center;
+  opacity: 0.6;
+}
