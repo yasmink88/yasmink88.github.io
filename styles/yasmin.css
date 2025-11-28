@@ -181,6 +181,13 @@ main {
   opacity: 1;
 }
 
+.interest-card img {
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    height: 250px;
+}
+
 .card-icon {
   font-size: 48px;
   margin-bottom: 15px;
