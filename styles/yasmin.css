@@ -9,7 +9,7 @@ main {
     margin-top: -80px;
 }
 .hero-section {
-  background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 50%, #2d1b4e 100%);
+  background-image: url(../media/yasmin-images/bg.jpg);
   border-radius: 20px;
   padding: 60px 40px;
   margin-bottom: 50px;
@@ -53,11 +53,8 @@ main {
   font-size: 48px;
   font-weight: 700;
   margin: 0 0 15px 0;
-  background: linear-gradient(135deg, #fff 0%, #a8d8ff 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-shadow: 0 0 30px rgba(168, 216, 255, 0.5);
+  color: #fff;
+
 }
 
 .hero-subtitle {
@@ -73,7 +70,7 @@ main {
   line-height: 1.8;
   max-width: 800px;
   margin: 0 auto;
-  color: #e0e0e0;
+  color: #fff;
 }
 
 /* About Section */
@@ -273,7 +270,7 @@ main {
 
 /* Quote Section */
 .quote-section {
-  background: linear-gradient(135deg, #1a1f3a 0%, #0a0e27 100%);
+  background-image: url(../media/yasmin-images/bg.jpg);
   border-radius: 15px;
   padding: 50px 40px;
   margin-bottom: 50px;
